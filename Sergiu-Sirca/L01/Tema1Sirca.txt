@@ -1,0 +1,10 @@
+StackOverflow este o aplicatie web destinata programatorilor amatori sau avansati cu o comunitate care foloseste un sistem de ajutor reciproc pentru rezolvarea problemelor
+
+Principale functionalitati ale acestei aplicatii sunt:
+	- posibilitatea de a lansa in discutie, o problema intampinata de-a lungul implementarii unei anumite solutii;
+	- sistem de ethichetare a discutiilor pentru cautare mai usoara;
+	- deseori, raspunsul poate fi deja existent;
+	- unele raspunsuri fiind verificate contribuie la reducerea timpului de a gasi solutia potrivita;
+	- multitudinea de limbaje de programare si aplicatii care au fost aduse in platforma de catre useri;
+	- posibilitatea de a contribui la dezvoltarea acestei comunitati;
+	- sistem toti pentru unu si unu pentru toti;
