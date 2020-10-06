@@ -1,0 +1,16 @@
+Contexts:
+-question context
+-answer context
+-vote context
+-tag context
+
+Events:
+-creare post intrebare
+-postare raspuns la intrebare
+-stergere intrebare
+-stergere raspuns
+-editare intrebare
+-editare raspuns
+-votare raspuns
+-adaugare tag
+-cautare dupa tag
