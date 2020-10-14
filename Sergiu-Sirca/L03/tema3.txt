@@ -1,0 +1,34 @@
+#### Sirca Sergiu ####
+
+###Bounded context: “Question context”
+	##Workflow: ”Post new question”
+    		#Triggered by: ”Post new question request received”
+		#Input: ”New question form”(mai multe informatii despre intrebare)
+		#Other inputs(dependencies)
+		#Output: ”New question Accepted and Posted” event
+		#Side effects: Confirmation question (utilizatorul e intrebat daca este sigur ca vrea sa posteze intrebarea)
+	##Workflow: ”Post new question”
+		#Input: ”New question form”
+		#Output: ”New question Accepted and Posted” event or Invalid question form
+	    
+###step1###
+	Do validate new question form
+	If question is invalid then
+	Stop
+###step2###
+	Send confirmation about question
+###step3###
+	Return ”New question Accepted and Posted” event
+	
+###Substep ”Validate new question form”
+	##Input: ”Unvalidated new question form”
+	##Output: ”Validated new question form”
+	##Dependencies: Text validator(ML)
+	
+		#Analyze(via an ML) the text
+		#If the result of the ML is accepted
+			•Return validated new question form
+		#Else if the result is confused
+			•Return propose for manual review
+		#Else return reject (Validation error)
+
